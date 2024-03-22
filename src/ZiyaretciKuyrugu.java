@@ -18,13 +18,13 @@ public class ZiyaretciKuyrugu {
         this.rear = null;
         this.size = 0; // Başlangıçta kuyruk boş olduğu için 0
     }
-
     // Yeni bir ziyaretçi eklemek için
     public void enqueue(String data) {
         if (size >= kullaniciGirisi) { // Maksimum sayı kontrolü (3 belirlendi)
             System.out.println("\nMaksimum ziyaretçi sayısı " + kullaniciGirisi + " dolmuştur!!!\n"); // Eğer kuyruk doluysa kullanıcıya bilgi ver
             return;
         }
+
 
         Ziyaretci temp = new Ziyaretci(data); // Yeni ziyaretçi nesnesi oluştur
 

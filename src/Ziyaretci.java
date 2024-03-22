@@ -3,6 +3,7 @@ public class Ziyaretci {
     String data; // Ziyaretçiye ait veri
     Ziyaretci next; // Bir sonraki ziyaretçiyi işaret eden referans
 
+    
     // Constructor
     public Ziyaretci() {
         this.data = null;
