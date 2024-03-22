@@ -10,12 +10,15 @@ public class Main {
 
         ZiyaretciKuyrugu z = new ZiyaretciKuyrugu(kullaniciGirisi);
 
+
         // Ziyaretçileri kuyruğa eklemek
         z.enqueue("Ahmet Enünlü");
         z.enqueue("Mahmut Irmak");
         z.enqueue("Tunahan Güler");
         z.enqueue("Furkan Er");
         z.enqueue("Serdar Aktolga");
+        z.enqueue("Sami Hamidi");
+        z.enqueue("Mike Hentzel");
 
         z.yazdir(); // Kuyruğun mevcut durumunu yazdır
 
